@@ -16,11 +16,6 @@ Python
 ## Usage
 Run the python script and see URLs,Login credentials.
 
-## Help
-```
-# 
-```
-
 ## Sample output:
 ```
 #python packet_sniffer.py 

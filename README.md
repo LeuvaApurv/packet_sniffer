@@ -1,4 +1,4 @@
-# packet_sniffer
+# Packet_sniffer
 packet_sniffer - Sniff packet through interface nd see URL,Username and Password.
 
 ## Desclaimer
@@ -10,14 +10,15 @@ Python
 ## Installation
 Instructions on how to install *packet_sniffer*
 ```bash
-git clone https://github.com/LeuvaApurv/packet_sniffer.git
+sudo git clone https://github.com/LeuvaApurv/packet_sniffer.git
 cd packet_sniffer
-python packet_sniffer.py
+sudo python packet_sniffer.py
+
 ```
 
 ## Sample output:
 ```bash
-python packet_sniffer.py 
+sudo python packet_sniffer.py 
 
 [+] HTTP Request >> 10.*.*.10/bWAPP/portal.php
 
@@ -28,7 +29,5 @@ python packet_sniffer.py
 
 
 [+] Possible username/password >> login=bee&password=bug&form=submit
-
-
 
 ```

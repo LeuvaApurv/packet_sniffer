@@ -7,22 +7,19 @@ packet_sniffer is intented ONLY for EDUCATIONAL PURPOSES.
 ## Requirements
 Python
 
-## Install
+## Installation
+Instructions on how to install *packet_sniffer*
+```bash
+git clone https://github.com/LeuvaApurv/packet_sniffer.git
+cd packet_sniffer
+python packet_sniffer.py
 ```
-# git clone https://github.com/LeuvaApurv/packet_sniffer
-# cd packet_sniffer
-```
-
-## Usage
-Run the python script and see URLs,Login credentials.
 
 ## Sample output:
-```
-#python packet_sniffer.py 
+```bash
+python packet_sniffer.py 
+
 [+] HTTP Request >> 10.*.*.10/bWAPP/portal.php
-
-
-[+] Possible username/password >> bug=87&form_bug=submit
 
 
 [+] HTTP Request >> detectportal.firefox.com/success.txt
